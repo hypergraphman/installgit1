@@ -1,0 +1,21 @@
+1) установить git с ресурса https://git-scm.com/downloads
+2) подключаем установленную прогу к pyCharm
+заходим в file - settings - version contol - git
+в поле Path to Git executable должно быть указан путь к этой проге
+например C:\Program Files\Git\bin\git.exe
+3) регаемся на сайте github.com
+4) логинимся в pyCharm'е в github.com
+заходим в file - settings - version contol - github
+и нажимаем "+" или add account
+вводим наши логин и пароль
+5) загружаем наш проект в гитхаб
++ VCS - Enable Version Contol Entegration в выпадающем списке выбираем Git
+нажимаем ОК
++ теперь в VCS появляется кнопка Git
++ теперь все текстовые (*.py) файлы добавляем в Git:
+нажимаем ПКМ по файлу и выбираем Git - Add (или нажимаем Ctrl+Alt+A)
++ Заходим на сайт github.com и создаем репозиторий
++ Копируем новый репозиторий в буфер обмена
++ VCS - Git - Remotes... - "+" вставляем в URL наш скопированный репозиторий
+OK OK OK
++ Делаем первый Commit: Ctrl+K или VCS - Commit
